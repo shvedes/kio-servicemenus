@@ -1,6 +1,6 @@
 # Custom Context Menus For KDE Plasma
 
-|                         |                         |
+| Example 1               | Example 2               |
 |          ---            |           ---           |
 | ![](./screenshot_1.png) | ![](./screenshot_2.png) |
 
