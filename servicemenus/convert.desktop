@@ -1,0 +1,31 @@
+[Desktop Entry]
+Type=Service
+# MimeType=image/jpg;image/jpeg;image/webp;image/heic
+MimeType=image/*
+Actions=convertToPng;convertToJpg;convertToWebp;convertToJpeg;convertToAvif
+X-KDE-Submenu=Convert to
+
+[Desktop Action convertToPng]
+Name=Convert to png
+Icon=folder-pictures-symbolic
+Exec=/home/shved/.local/bin/kde-servicemenus/convert-to-png.sh png %U
+
+[Desktop Action convertToJpg]
+Name=Convert to jpg
+Icon=folder-pictures-symbolic
+Exec=/home/shved/.local/bin/kde-servicemenus/convert-to-png.sh jpg %U
+
+[Desktop Action convertToJpeg]
+Name=Convert to jpeg
+Icon=folder-pictures-symbolic
+Exec=/home/shved/.local/bin/kde-servicemenus/convert-to-png.sh jpeg %U
+
+[Desktop Action convertToWebp]
+Name=Convert to webp
+Icon=folder-pictures-symbolic
+Exec=/home/shved/.local/bin/kde-servicemenus/convert-to-png.sh webp %U
+
+[Desktop Action convertToAvif]
+Name=Convert to avif
+Icon=folder-pictures-symbolic
+Exec=/home/shved/.local/bin/kde-servicemenus/convert-to-png.sh avif %U

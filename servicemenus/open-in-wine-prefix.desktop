@@ -1,0 +1,17 @@
+[Desktop Entry]
+Type=Service
+MimeType=application/x-ms-dos-executable;application/x-msi;text/x-ms-regedit
+Actions=openInPrefix;openInPrefixWithMangoHud
+X-KDE-Submenu=Open In Wine Prefix
+X-KDE-RequiredNumberOfUrls=1
+
+[Desktop Action openInPrefix]
+Name=Open In Wine Prefix
+Icon=wine
+Exec=/home/shved/.local/bin/kde-servicemenus/open-in-wine-prefix.sh %u
+
+[Desktop Action openInPrefixWithMangoHud]
+Name=Open With FPS Counter
+Icon=applications-games-symbolic
+Exec=/home/shved/.local/bin/kde-servicemenus/open-with-mangohud.sh %u
+

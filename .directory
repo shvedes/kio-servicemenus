@@ -1,0 +1,8 @@
+[Dolphin]
+Timestamp=2024,11,15,17,14,59.013
+Version=4
+ViewMode=1
+VisibleRoles=Details_text,Details_size,Details_modificationtime,Details_permissions,Details_owner,CustomizedDetails
+
+[Settings]
+HiddenFilesShown=true
