@@ -8,10 +8,10 @@ X-KDE-RequiredNumberOfUrls=1
 [Desktop Action openInPrefix]
 Name=Open In Wine Prefix
 Icon=wine
-Exec=/home/shved/.local/bin/kde-servicemenus/open-in-wine-prefix.sh %u
+Exec=/home/shved/.local/bin/kio-servicemenus/open-in-wine-prefix.sh %u
 
 [Desktop Action openInPrefixWithMangoHud]
 Name=Open With FPS Counter
 Icon=applications-games-symbolic
-Exec=/home/shved/.local/bin/kde-servicemenus/open-with-mangohud.sh %u
+Exec=/home/shved/.local/bin/kio-servicemenus/open-with-mangohud.sh %u
 

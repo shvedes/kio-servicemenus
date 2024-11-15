@@ -4,7 +4,7 @@ if ! command -v wine > /dev/null; then
 	kdialog --error "Wine is not installed. Please install it to proceed."
 fi
 
-source $HOME/.local/bin/kde-servicemenus/lib/wine.sh
+source $HOME/.local/bin/kio-servicemenus/lib/wine.sh
 
 select_wine_prefix
 wineboot

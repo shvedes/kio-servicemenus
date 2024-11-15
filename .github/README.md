@@ -11,3 +11,9 @@
 - **Convert any image to `png`,`jpeg`,`jpg`,`webp`,`avif`**
 
 More soon
+
+## Install
+
+```bash
+curl -s "https://raw.githubusercontent.com/shvedes/kio-servicemenus/refs/heads/main/install.sh" | bash
+```

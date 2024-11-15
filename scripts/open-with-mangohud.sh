@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-source $HOME/.local/bin/kde-servicemenus/lib/wine.sh
+source $HOME/.local/bin/kio-servicemenus/lib/wine.sh
 
 if ! command -v mangohud > /dev/null; then
 	kdialog --error "Wine is not installed. Please install it to proceed."
