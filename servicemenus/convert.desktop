@@ -8,24 +8,24 @@ X-KDE-Submenu=Convert to
 [Desktop Action convertToPng]
 Name=Convert to png
 Icon=folder-pictures-symbolic
-Exec=/home/username/.local/bin/kio-servicemenus/convert-to-png.sh png %U
+Exec=/home/username/.local/bin/kio-servicemenus/convert.sh png %U
 
 [Desktop Action convertToJpg]
 Name=Convert to jpg
 Icon=folder-pictures-symbolic
-Exec=/home/username/.local/bin/kio-servicemenus/convert-to-png.sh jpg %U
+Exec=/home/username/.local/bin/kio-servicemenus/convert.sh jpg %U
 
 [Desktop Action convertToJpeg]
 Name=Convert to jpeg
 Icon=folder-pictures-symbolic
-Exec=/home/username/.local/bin/kio-servicemenus/convert-to-png.sh jpeg %U
+Exec=/home/username/.local/bin/kio-servicemenus/convert.sh jpeg %U
 
 [Desktop Action convertToWebp]
 Name=Convert to webp
 Icon=folder-pictures-symbolic
-Exec=/home/username/.local/bin/kio-servicemenus/convert-to-png.sh webp %U
+Exec=/home/username/.local/bin/kio-servicemenus/convert.sh webp %U
 
 [Desktop Action convertToAvif]
 Name=Convert to avif
 Icon=folder-pictures-symbolic
-Exec=/home/username/.local/bin/kio-servicemenus/convert-to-png.sh avif %U
+Exec=/home/username/.local/bin/kio-servicemenus/convert.sh avif %U
